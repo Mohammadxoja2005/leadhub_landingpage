@@ -43,7 +43,7 @@ const legalFooterContent = [
   },
   {
     itemName: "Privacy policy",
-    routePath: "/terms-conditions",
+    routePath: "/privacy-policy",
   },
   {
     itemName: "Refund policy",

@@ -27,8 +27,8 @@ const Header = () => {
       >
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo">
-            <Link to="/">
-              <img src="images/logo/deski_01.svg" alt="brand logo" />
+            <Link style={{color: "purple", fontSize: "30px"}} to="/">
+              Leadhub
             </Link>
           </div>
           {/* End Logo */}
@@ -45,12 +45,12 @@ const Header = () => {
 
                   <ul className="right-button-group d-flex align-items-center justify-content-center">
                     <li>
-                      <Link to="/login" className="signIn-action">
+                      <Link to="/coming-soon" className="signIn-action">
                         Login
                       </Link>
                     </li>
                     <li>
-                      <Link to="/signup" className="signUp-action">
+                      <Link to="/coming-soon" className="signUp-action">
                         Get Started
                       </Link>
                     </li>

@@ -1,79 +1,92 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const PricingContent = [
   {
-    title: "Free Event",
-    price: "0",
+    title: "Essential",
+    price: "15",
     priceMeta: "per user/month",
     packageName: "pc1",
     skewClass: "skew-right",
     priceList: [
       {
-        list: "60-day chat history",
+        list: "7-day free trial",
         listClass: "",
       },
       {
-        list: "Basic widget customization",
+        list: "Lead history to track interactions",
         listClass: "",
       },
       {
-        list: "Ticketing system",
+        list: "Basic contact and deal management",
+        listClass: "",
+      },
+      {
+        list: "No automated lead assignment",
         listClass: "disable",
       },
       {
-        list: "Data security",
+        list: "No email integration for follow-ups",
         listClass: "disable",
       },
     ],
     animatinDelay: "0",
   },
   {
-    title: "Pre Day",
-    price: "0.32",
+    title: "Advanced",
+    price: "29",
     priceMeta: "per user/month",
     packageName: "pc2",
     skewClass: "skew-left",
     priceList: [
       {
-        list: "60-day chat history",
+        list: "7-day free trial",
         listClass: "",
       },
       {
-        list: "Basic widget customization",
+        list: "Lead history to track interactions",
         listClass: "",
       },
       {
-        list: "Ticketing system",
+        list: "Basic contact and deal management",
         listClass: "",
       },
       {
-        list: "Data security",
+        list: "Automated lead assignment",
+        listClass: "",
+      },
+      {
+        list: "No email integration for follow-ups",
         listClass: "disable",
       },
     ],
     animatinDelay: "100",
   },
   {
-    title: "Pay As You Go",
-    price: "0.65",
+    title: "Professional",
+    price: "39",
     priceMeta: "per user/month",
     packageName: "pc3",
     skewClass: "skew-right",
     priceList: [
       {
-        list: "60-day chat history",
+        list: "7-day free trial",
         listClass: "",
       },
       {
-        list: "Basic widget customization",
+        list: "Lead history to track interactions",
         listClass: "",
       },
       {
-        list: "Ticketing system",
+        list: "Basic contact and deal management",
         listClass: "",
       },
       {
-        list: "Data security",
+        list: "Automated lead assignment",
+        listClass: "",
+      },
+      {
+        list: "Email integration for follow-ups",
         listClass: "",
       },
     ],
@@ -106,9 +119,9 @@ const PricingThree = () => {
                 </li>
               ))}
             </ul>
-            <a href="#" className="subscribe-btn font-rubik">
+            <Link to="/coming-soon" className="subscribe-btn font-rubik">
               Subscribe Now
-            </a>
+            </Link>
           </div>
         </div>
       ))}

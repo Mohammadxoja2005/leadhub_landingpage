@@ -25,8 +25,8 @@ const NotFound = () => {
         </div>
         <div className="text-wrapper order-lg-first">
           <div className="logo">
-            <Link to="/">
-              <img src="images/logo/deski_05.svg" alt="logo" />
+            <Link style={{color: "purple", fontSize: "30px"}} to="/">
+              Leadhub
             </Link>
           </div>
           <h1 className="font-slab">
@@ -34,10 +34,10 @@ const NotFound = () => {
             The Page Can’t <br />
             be Found.
           </h1>
-          <p className="font-rubik">
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat
-          </p>
+          {/*<p className="font-rubik">*/}
+          {/*  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea*/}
+          {/*  commodo consequat*/}
+          {/*</p>*/}
 
           <Link
             to="/"

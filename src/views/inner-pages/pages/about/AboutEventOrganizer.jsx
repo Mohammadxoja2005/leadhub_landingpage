@@ -15,7 +15,7 @@ const EventOrganizer = () => {
     <div className="main-page-wrapper p0">
       <Helmet>
         <title>
-          About Event Organizer || Deski-Saas & Software React Template
+          About Event Organizer || Leadhub-Saas & Software
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -119,7 +119,7 @@ const EventOrganizer = () => {
       </div>
       {/* /.team-section-four */}
 
-      {/* 
+      {/*
      =============================================
 				Fqa Text Block
 		============================================== */}
@@ -178,7 +178,7 @@ const EventOrganizer = () => {
       </div>
       {/* /.feature-blog-four */}
 
-      {/* 
+      {/*
       =============================================
 			Call To Action
 		  ============================================== */}
@@ -189,7 +189,7 @@ const EventOrganizer = () => {
       </div>
       {/* End .fancy-short-banner-five */}
 
-      {/* 
+      {/*
      =============================================
 			Footer Four
 		  ============================================== */}

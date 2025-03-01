@@ -7,7 +7,7 @@ const FormEvent = () => {
   return (
     <form onClick={handleSubmit}>
       <input type="text" placeholder="Email address" />
-      <button>Start Trial</button>
+      <button>Join a Waitlist</button>
     </form>
   );
 };

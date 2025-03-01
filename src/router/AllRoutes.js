@@ -105,100 +105,100 @@ const AllRoutes = () => {
       <ScrollTopBehaviour />
       <Routes>
         <Route path="/" element={<EventOrganizer />} />
-        <Route path="/doc-landing" element={<DocLanding />} />
-        <Route path="/doc-signature" element={<DocSignatureLanding />} />
-        <Route path="/project-management" element={<ProjectManagement />} />
-        <Route path="/customer-support" element={<CustomerSupport />} />
-        <Route path="/product-landing" element={<ProductLanding />} />
-        <Route path="/product-landing-dark" element={<ProductLandingDark />} />
-        <Route path="/note-taking-landing" element={<NoteTakingLanding />} />
-        <Route path="/video-editor-landing" element={<VideoEditorLanding />} />
-        <Route
-          path="/appointment-scheduling"
-          element={<AppointmentScheduling />}
-        />
-        <Route path="/mobile-app-landing" element={<MobileAppLanding />} />
-        <Route path="/website-builder" element={<WebsiteBuilderLanding />} />
-        <Route path="/form-survey-landing" element={<FormSurveyLanding />} />
-        <Route path="/vr-landing" element={<VrLanding />} />
-        <Route path="/e-commerce" element={<Ecommerce />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/checkout" element={<Checkout />} />
-        <Route path="/product-details" element={<ProductDetails />} />
+        {/*<Route path="/doc-landing" element={<DocLanding />} />*/}
+        {/*<Route path="/doc-signature" element={<DocSignatureLanding />} />*/}
+        {/*<Route path="/project-management" element={<ProjectManagement />} />*/}
+        {/*<Route path="/customer-support" element={<CustomerSupport />} />*/}
+        {/*<Route path="/product-landing" element={<ProductLanding />} />*/}
+        {/*<Route path="/product-landing-dark" element={<ProductLandingDark />} />*/}
+        {/*<Route path="/note-taking-landing" element={<NoteTakingLanding />} />*/}
+        {/*<Route path="/video-editor-landing" element={<VideoEditorLanding />} />*/}
+        {/*<Route*/}
+        {/*  path="/appointment-scheduling"*/}
+        {/*  element={<AppointmentScheduling />}*/}
+        {/*/>*/}
+        {/*<Route path="/mobile-app-landing" element={<MobileAppLanding />} />*/}
+        {/*<Route path="/website-builder" element={<WebsiteBuilderLanding />} />*/}
+        {/*<Route path="/form-survey-landing" element={<FormSurveyLanding />} />*/}
+        {/*<Route path="/vr-landing" element={<VrLanding />} />*/}
+        {/*<Route path="/e-commerce" element={<Ecommerce />} />*/}
+        {/*<Route path="/cart" element={<Cart />} />*/}
+        {/*<Route path="/checkout" element={<Checkout />} />*/}
+        {/*<Route path="/product-details" element={<ProductDetails />} />*/}
         <Route path="/coming-soon" element={<ComingSoon />} />
 
         {/* Pages Dropdown Routes */}
-        <Route path="/team-1" element={<Team1 />} />
-        <Route path="/team-2" element={<Team2 />} />
-        <Route path="/team-3" element={<Team3 />} />
-        <Route path="/team-4" element={<Team4 />} />
-        <Route path="/team-5" element={<Team5 />} />
-        <Route path="/team-6" element={<Team6 />} />
-        <Route path="/team-details-v1" element={<TeamDetailsV1 />} />
-        <Route path="/team-details-v2" element={<TeamDetailsV2 />} />
+        {/*<Route path="/team-1" element={<Team1 />} />*/}
+        {/*<Route path="/team-2" element={<Team2 />} />*/}
+        {/*<Route path="/team-3" element={<Team3 />} />*/}
+        {/*<Route path="/team-4" element={<Team4 />} />*/}
+        {/*<Route path="/team-5" element={<Team5 />} />*/}
+        {/*<Route path="/team-6" element={<Team6 />} />*/}
+        {/*<Route path="/team-details-v1" element={<TeamDetailsV1 />} />*/}
+        {/*<Route path="/team-details-v2" element={<TeamDetailsV2 />} />*/}
         {/* faq inner pages */}
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/faq-details" element={<FaqDetails />} />
+        {/*<Route path="/faq" element={<Faq />} />*/}
+        {/*<Route path="/faq-details" element={<FaqDetails />} />*/}
         {/* contact us inner pages */}
-        <Route path="/contact-cs" element={<ContactCustomerSupport />} />
-        <Route path="/contact-eo" element={<ContactEventOrganizer />} />
-        <Route path="/contact-pm" element={<ContactProjectManagement />} />
-        <Route path="/contact-doc" element={<ContactDocumentation />} />
+        {/*<Route path="/contact-cs" element={<ContactCustomerSupport />} />*/}
+        {/*<Route path="/contact-eo" element={<ContactEventOrganizer />} />*/}
+        {/*<Route path="/contact-pm" element={<ContactProjectManagement />} />*/}
+        {/*<Route path="/contact-doc" element={<ContactDocumentation />} />*/}
         {/* about us inner pages */}
-        <Route path="/about-cs" element={<AboutCustomerSupport />} />
-        <Route path="/about-eo" element={<AboutEventOrganizer />} />
-        <Route path="/about-pm" element={<AboutProjectManagement />} />
-        <Route path="/about-doc" element={<AboutDocumentation />} />
+        {/*<Route path="/about-cs" element={<AboutCustomerSupport />} />*/}
+        {/*<Route path="/about-eo" element={<AboutEventOrganizer />} />*/}
+        {/*<Route path="/about-pm" element={<AboutProjectManagement />} />*/}
+        {/*<Route path="/about-doc" element={<AboutDocumentation />} />*/}
         {/* pricing inner pages */}
-        <Route path="/pricing-cs" element={<PricingCustomerSupport />} />
-        <Route path="/pricing-eo" element={<PricingEventOrganizer />} />
-        <Route path="/pricing-pm" element={<PricingProjectManagement />} />
+        {/*<Route path="/pricing-cs" element={<PricingCustomerSupport />} />*/}
+        {/*<Route path="/pricing-eo" element={<PricingEventOrganizer />} />*/}
+        {/*<Route path="/pricing-pm" element={<PricingProjectManagement />} />*/}
 
         {/* Feature Dropdown Routes */}
-        <Route path="/login" element={<Login />} />
-        <Route path="/SignUp" element={<SignUp />} />
+        {/*<Route path="/login" element={<Login />} />*/}
+        {/*<Route path="/SignUp" element={<SignUp />} />*/}
         <Route path="/terms-conditions" element={<TermsConditions />} />
-        <Route path="/solution-management" element={<SolutionMangement />} />
-        <Route
-          path="/product-customer-support"
-          element={<ProductCustomerSupport />}
-        />
-        <Route
-          path="/features-customer-support"
-          element={<FeaturesCustomerSupport />}
-        />
+        {/*<Route path="/solution-management" element={<SolutionMangement />} />*/}
+        {/*<Route*/}
+        {/*  path="/product-customer-support"*/}
+        {/*  element={<ProductCustomerSupport />}*/}
+        {/*/>*/}
+        {/*<Route*/}
+        {/*  path="/features-customer-support"*/}
+        {/*  element={<FeaturesCustomerSupport />}*/}
+        {/*/>*/}
 
         {/* Service inner pages */}
-        <Route path="/service-v1" element={<ServiceV1 />} />
-        <Route path="/service-v2" element={<ServiceV2 />} />
-        <Route path="/service-v3" element={<ServiceV3 />} />
-        <Route path="/service-v4" element={<ServiceV4 />} />
-        <Route path="/service-details" element={<ServiceDetails />} />
+        {/*<Route path="/service-v1" element={<ServiceV1 />} />*/}
+        {/*<Route path="/service-v2" element={<ServiceV2 />} />*/}
+        {/*<Route path="/service-v3" element={<ServiceV3 />} />*/}
+        {/*<Route path="/service-v4" element={<ServiceV4 />} />*/}
+        {/*<Route path="/service-details" element={<ServiceDetails />} />*/}
 
         {/* inner pages Docs   */}
-        <Route path="/doc-full-width" element={<DocFullWidth />} />
-        <Route path="/doc-full-width-banner" element={<DocFullWidthBanner />} />
-        <Route path="/doc-box" element={<DocBox />} />
-        <Route path="/doc-box-with-banner" element={<DocBoxWithBanner />} />
-        <Route path="/changelog" element={<Changelog />} />
+        {/*<Route path="/doc-full-width" element={<DocFullWidth />} />*/}
+        {/*<Route path="/doc-full-width-banner" element={<DocFullWidthBanner />} />*/}
+        {/*<Route path="/doc-box" element={<DocBox />} />*/}
+        {/*<Route path="/doc-box-with-banner" element={<DocBoxWithBanner />} />*/}
+        {/*<Route path="/changelog" element={<Changelog />} />*/}
 
         {/* inner Portfolio pages Dropdown   */}
-        <Route path="/classic-style" element={<PortfolioV1 />} />
-        <Route path="/grid-two-col" element={<PortfolioV2 />} />
-        <Route path="/grid-three-col" element={<PortfolioV3 />} />
-        <Route path="/gallery-slider" element={<PortfolioV4 />} />
-        <Route path="/grid-single" element={<PortfolioV5 />} />
-        <Route path="/portfolio-details-v1" element={<PortfolioDetailsV1 />} />
+        {/*<Route path="/classic-style" element={<PortfolioV1 />} />*/}
+        {/*<Route path="/grid-two-col" element={<PortfolioV2 />} />*/}
+        {/*<Route path="/grid-three-col" element={<PortfolioV3 />} />*/}
+        {/*<Route path="/gallery-slider" element={<PortfolioV4 />} />*/}
+        {/*<Route path="/grid-single" element={<PortfolioV5 />} />*/}
+        {/*<Route path="/portfolio-details-v1" element={<PortfolioDetailsV1 />} />*/}
 
         {/* inner Blog pages Dropdown   */}
-        <Route path="/blog-v1" element={<BlogV1 />} />
-        <Route path="/blog-v2" element={<BlogV2 />} />
-        <Route path="/blog-v3" element={<BlogV3 />} />
-        <Route path="/blog-v4" element={<BlogV4 />} />
-        <Route path="/blog-v5" element={<BlogV5 />} />
-        <Route path="/blog-v6" element={<BlogV6 />} />
-        <Route path="/blog-details" element={<BlogDetails />} />
-        <Route path="*" element={<NotFound />} />
+        {/*<Route path="/blog-v1" element={<BlogV1 />} />*/}
+        {/*<Route path="/blog-v2" element={<BlogV2 />} />*/}
+        {/*<Route path="/blog-v3" element={<BlogV3 />} />*/}
+        {/*<Route path="/blog-v4" element={<BlogV4 />} />*/}
+        {/*<Route path="/blog-v5" element={<BlogV5 />} />*/}
+        {/*<Route path="/blog-v6" element={<BlogV6 />} />*/}
+        {/*<Route path="/blog-details" element={<BlogDetails />} />*/}
+        {/*<Route path="*" element={<NotFound />} />*/}
 
         {/* NotFound Route */}
         <Route path="*" element={<NotFound />} />

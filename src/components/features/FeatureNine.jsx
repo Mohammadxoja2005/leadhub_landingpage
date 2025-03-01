@@ -4,19 +4,17 @@ const FeatureContent = [
   {
     icon: "ils_15",
     meta: "Join Our Platform",
-    subTitle: `  It only takes 5 minutes. Set up is smooth and simple fully lorem
-    qui.`,
+    subTitle: `Get started in just 5 minutes. The setup is quick, seamless, and hassle-free—no technical skills required.`,
   },
   {
     icon: "ils_16",
-    meta: "Manage you event",
-    subTitle: `Choose a price package to suit you or pay per ticket. Sell on your
-    website,`,
+    meta: "Manage Your Leads",
+    subTitle: `Choose a pricing plan that fits your needs. Track and convert directly from your dashboard.`,
   },
   {
     icon: "ils_17",
-    meta: "Start selling ticket",
-    subTitle: `Get payments, detailed data on tickets sales & message guests lorem`,
+    meta: "Start Closing Deals",
+    subTitle: `Receive payments, track detailed sales data, and engage leads with direct messaging`,
   },
 ];
 

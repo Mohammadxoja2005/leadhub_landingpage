@@ -38,10 +38,6 @@ const linksFooterContent = [
 
 const legalFooterContent = [
   {
-    itemName: "Terms of use",
-    routePath: "/terms-conditions",
-  },
-  {
     itemName: "Terms & conditions",
     routePath: "/terms-conditions",
   },
@@ -50,8 +46,8 @@ const legalFooterContent = [
     routePath: "/terms-conditions",
   },
   {
-    itemName: "Cookie policy",
-    routePath: "",
+    itemName: "Refund policy",
+    routePath: "/terms-conditions",
   },
 ];
 
@@ -87,52 +83,63 @@ const FooterFour = () => {
     <div className="row justify-content-end">
       <div className="col-xl-4 col-lg-3 col-12 footer-about-widget">
         <div className="logo">
-          <a href="index-event.html">
-            <img src="images/logo/deski_05.svg" alt="" />
+          <a style={{color: "purple", fontSize: "30px"}} href="/">
+            Leadhub
           </a>
         </div>
         <ul className="font-rubik mt-10">
           <li>
-            <a href="mailto:deskiinc@gmail.com">deskiinc@gmail.com</a>
+            <a href="mailto:leadhubapp@gmail.com">leadhubapp@gmail.com</a>
           </li>
-          <li>
-            <a href="tel:+761 412 3224">+761 412 3224</a>
-          </li>
+          {/*<li>*/}
+          {/*  <a href="tel:+761 412 3224">+761 412 3224</a>*/}
+          {/*</li>*/}
         </ul>
       </div>
       {/* /.footer-list */}
+
+      {/*<div className="col-lg-3 col-md-4 footer-list">*/}
+      {/*  <h5 className="footer-title font-slab">Legal</h5>*/}
+      {/*  <ul>*/}
+      {/*    {legalFooterContent.map((list, i) => (*/}
+      {/*        <li key={i}>*/}
+      {/*          <Link to={list.routePath}>{list.itemName}</Link>*/}
+      {/*        </li>*/}
+      {/*    ))}*/}
+      {/*  </ul>*/}
+      {/*</div>*/}
 
       <div className="col-lg-3 col-md-4 footer-list">
-        <h5 className="footer-title font-slab">Links</h5>
-        <ul>
-          {linksFooterContent.map((list, i) => (
-            <li key={i}>
-              <Link to={list.routePath}>{list.itemName}</Link>
-            </li>
-          ))}
-        </ul>
+        {/*<h5 className="footer-title font-slab">Links</h5>*/}
+        {/*<ul>*/}
+        {/*  {linksFooterContent.map((list, i) => (*/}
+        {/*    <li key={i}>*/}
+        {/*      <Link to={list.routePath}>{list.itemName}</Link>*/}
+        {/*    </li>*/}
+        {/*  ))}*/}
+        {/*</ul>*/}
       </div>
 
       {/* /.footer-list */}
+      {/* /.footer-list */}
+
+      <div className="col-xl-2 col-lg-3 col-md-4 footer-list">
+        {/*<h5 className="footer-title font-slab">Products</h5>*/}
+        {/*<ul className="pe-5">*/}
+        {/*  {productsFooterContent.map((list, i) => (*/}
+        {/*    <li key={i}>*/}
+        {/*      <Link to={list.routePath}>{list.itemName}</Link>*/}
+        {/*    </li>*/}
+        {/*  ))}*/}
+        {/*</ul>*/}
+      </div>
       <div className="col-lg-3 col-md-4 footer-list">
         <h5 className="footer-title font-slab">Legal</h5>
         <ul>
           {legalFooterContent.map((list, i) => (
-            <li key={i}>
-              <Link to={list.routePath}>{list.itemName}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-      {/* /.footer-list */}
-
-      <div className="col-xl-2 col-lg-3 col-md-4 footer-list">
-        <h5 className="footer-title font-slab">Products</h5>
-        <ul className="pe-5">
-          {productsFooterContent.map((list, i) => (
-            <li key={i}>
-              <Link to={list.routePath}>{list.itemName}</Link>
-            </li>
+              <li key={i}>
+                <Link to={list.routePath}>{list.itemName}</Link>
+              </li>
           ))}
         </ul>
       </div>

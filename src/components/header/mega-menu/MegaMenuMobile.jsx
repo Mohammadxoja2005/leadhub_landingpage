@@ -303,9 +303,9 @@ const MegaMenuMobile = () => {
       >
         <SidebarHeader>
           <div className="logo position-static">
-            <a href="index.html">
-              <img src="/images/logo/deski_07.svg" alt="home-demo" />
-            </a>
+            <Link style={{color: "white", fontSize: "30px"}} to="/">
+              Leadhub
+            </Link>
           </div>
           <div className="fix-icon text-dark" onClick={handleClick}>
             <img src="images/icon/close-w.svg" alt="icon" />
@@ -316,127 +316,127 @@ const MegaMenuMobile = () => {
         </SidebarHeader>
         <SidebarContent>
           <Menu>
-            <SubMenu title="Home">
-              {HomeMobileMenu.map((val, i) => (
-                <MenuItem key={i}>
-                  <Link to={val.routerPath}>{val.name}</Link>
-                </MenuItem>
-              ))}
-            </SubMenu>
-            {/* End Home SubMenu */}
+        {/*    <SubMenu title="Home">*/}
+        {/*      {HomeMobileMenu.map((val, i) => (*/}
+        {/*        <MenuItem key={i}>*/}
+        {/*          <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*        </MenuItem>*/}
+        {/*      ))}*/}
+        {/*    </SubMenu>*/}
+        {/*    /!* End Home SubMenu *!/*/}
 
-            <SubMenu title="Pages">
-              <SubMenu title="Pricing" className="plus alt">
-                {Pricing.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
+        {/*    <SubMenu title="Pages">*/}
+        {/*      <SubMenu title="Pricing" className="plus alt">*/}
+        {/*        {Pricing.map((val, i) => (*/}
+        {/*          <MenuItem key={i}>*/}
+        {/*            <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*          </MenuItem>*/}
+        {/*        ))}*/}
+        {/*      </SubMenu>*/}
 
-              <SubMenu title="About Us" className="plus alt">
-                {AboutUs.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End About SubMenu */}
+        {/*      <SubMenu title="About Us" className="plus alt">*/}
+        {/*        {AboutUs.map((val, i) => (*/}
+        {/*          <MenuItem key={i}>*/}
+        {/*            <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*          </MenuItem>*/}
+        {/*        ))}*/}
+        {/*      </SubMenu>*/}
+        {/*      /!* End About SubMenu *!/*/}
 
-              <SubMenu title="Contact Us" className="plus alt">
-                {ContactUs.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Contact Us SubMenu */}
+        {/*      <SubMenu title="Contact Us" className="plus alt">*/}
+        {/*        {ContactUs.map((val, i) => (*/}
+        {/*          <MenuItem key={i}>*/}
+        {/*            <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*          </MenuItem>*/}
+        {/*        ))}*/}
+        {/*      </SubMenu>*/}
+        {/*      /!* End Contact Us SubMenu *!/*/}
 
-              <SubMenu title="Team" className="plus alt">
-                {Team.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Team SubMenu */}
-              <MenuItem>
-                {" "}
-                <Link to="/faq"> FAQ</Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/faq-details"> Faq Details</Link>
-              </MenuItem>
-            </SubMenu>
-            {/* End Pages SubMenu */}
+        {/*      <SubMenu title="Team" className="plus alt">*/}
+        {/*        {Team.map((val, i) => (*/}
+        {/*          <MenuItem key={i}>*/}
+        {/*            <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*          </MenuItem>*/}
+        {/*        ))}*/}
+        {/*      </SubMenu>*/}
+        {/*      /!* End Team SubMenu *!/*/}
+        {/*      <MenuItem>*/}
+        {/*        {" "}*/}
+        {/*        <Link to="/faq"> FAQ</Link>*/}
+        {/*      </MenuItem>*/}
+        {/*      <MenuItem>*/}
+        {/*        {" "}*/}
+        {/*        <Link to="/faq-details"> Faq Details</Link>*/}
+        {/*      </MenuItem>*/}
+        {/*    </SubMenu>*/}
+        {/*    /!* End Pages SubMenu *!/*/}
 
-            <SubMenu title="Features">
-              <SubMenu title="Services" className="plus alt">
-                {Services.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Services SubMenu */}
-              <SubMenu title="Miscellaneous" className="plus alt">
-                {Miscellaneous.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Miscellaneous SubMenu */}
-              <MenuItem>
-                {" "}
-                <Link to="/solution-management" className="dropdown-item">
-                  Our Solution
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/product-customer-support" className="dropdown-item">
-                  Product Feature
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/features-customer-support" className="dropdown-item">
-                  Our Features
-                </Link>
-              </MenuItem>
-            </SubMenu>
-            {/* End Feautres SubMenu */}
+        {/*    <SubMenu title="Features">*/}
+        {/*      <SubMenu title="Services" className="plus alt">*/}
+        {/*        {Services.map((val, i) => (*/}
+        {/*          <MenuItem key={i}>*/}
+        {/*            <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*          </MenuItem>*/}
+        {/*        ))}*/}
+        {/*      </SubMenu>*/}
+        {/*      /!* End Services SubMenu *!/*/}
+        {/*      <SubMenu title="Miscellaneous" className="plus alt">*/}
+        {/*        {Miscellaneous.map((val, i) => (*/}
+        {/*          <MenuItem key={i}>*/}
+        {/*            <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*          </MenuItem>*/}
+        {/*        ))}*/}
+        {/*      </SubMenu>*/}
+        {/*      /!* End Miscellaneous SubMenu *!/*/}
+        {/*      <MenuItem>*/}
+        {/*        {" "}*/}
+        {/*        <Link to="/solution-management" className="dropdown-item">*/}
+        {/*          Our Solution*/}
+        {/*        </Link>*/}
+        {/*      </MenuItem>*/}
+        {/*      <MenuItem>*/}
+        {/*        {" "}*/}
+        {/*        <Link to="/product-customer-support" className="dropdown-item">*/}
+        {/*          Product Feature*/}
+        {/*        </Link>*/}
+        {/*      </MenuItem>*/}
+        {/*      <MenuItem>*/}
+        {/*        {" "}*/}
+        {/*        <Link to="/features-customer-support" className="dropdown-item">*/}
+        {/*          Our Features*/}
+        {/*        </Link>*/}
+        {/*      </MenuItem>*/}
+        {/*    </SubMenu>*/}
+        {/*    /!* End Feautres SubMenu *!/*/}
 
-            <SubMenu title="Portfolio">
-              {Portfolio.map((val, i) => (
-                <MenuItem key={i}>
-                  <Link to={val.routerPath}>{val.name}</Link>
-                </MenuItem>
-              ))}
-            </SubMenu>
-            {/* End Portfolio SubMenu */}
+        {/*    <SubMenu title="Portfolio">*/}
+        {/*      {Portfolio.map((val, i) => (*/}
+        {/*        <MenuItem key={i}>*/}
+        {/*          <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*        </MenuItem>*/}
+        {/*      ))}*/}
+        {/*    </SubMenu>*/}
+        {/*    /!* End Portfolio SubMenu *!/*/}
 
-            <SubMenu title="Blogs">
-              {Blogs.map((val, i) => (
-                <MenuItem key={i}>
-                  <Link to={val.routerPath}>{val.name}</Link>
-                </MenuItem>
-              ))}
-            </SubMenu>
-            {/* End Blogs SubMenu */}
+        {/*    <SubMenu title="Blogs">*/}
+        {/*      {Blogs.map((val, i) => (*/}
+        {/*        <MenuItem key={i}>*/}
+        {/*          <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*        </MenuItem>*/}
+        {/*      ))}*/}
+        {/*    </SubMenu>*/}
+        {/*    /!* End Blogs SubMenu *!/*/}
 
-            <SubMenu title="Docs">
-              {Docs.map((val, i) => (
-                <MenuItem key={i}>
-                  <Link to={val.routerPath}>{val.name}</Link>
-                </MenuItem>
-              ))}
-            </SubMenu>
-            {/* End Docs SubMenu */}
+        {/*    <SubMenu title="Docs">*/}
+        {/*      {Docs.map((val, i) => (*/}
+        {/*        <MenuItem key={i}>*/}
+        {/*          <Link to={val.routerPath}>{val.name}</Link>*/}
+        {/*        </MenuItem>*/}
+        {/*      ))}*/}
+        {/*    </SubMenu>*/}
+        {/*    /!* End Docs SubMenu *!/*/}
             <MenuItem>
-              <Link to="/login">Login</Link>
+              <Link to="/coming-soon">Login</Link>
             </MenuItem>
           </Menu>
         </SidebarContent>

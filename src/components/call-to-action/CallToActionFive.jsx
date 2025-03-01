@@ -13,8 +13,7 @@ const CallToActionFive = () => {
       <div className="row">
         <div className="col-xl-7 col-lg-8 col-md-9 m-auto">
           <p className="font-rubik sub-heading">
-            Our ticketing platform is made for you - & loved by everyone lorem
-            ipsum.
+              A powerful lead CRM designed to help you close more deals.
           </p>
         </div>
         {/* End .col */}
@@ -23,9 +22,9 @@ const CallToActionFive = () => {
       <div className="row">
         <div className="col-xl-7 col-lg-8 col-md-10 m-auto">
           <FormEvent />
-          <p className="info-text">
-            Already a member? <Link to="login">Sign in.</Link>
-          </p>
+          {/*<p className="info-text">*/}
+          {/*  Already a member? <Link to="login">Sign in.</Link>*/}
+          {/*</p>*/}
         </div>
         {/* End .col */}
       </div>

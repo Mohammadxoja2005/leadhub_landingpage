@@ -3,8 +3,8 @@ import React from "react";
 const FeatureContent = [
   {
     icon: "60",
-    meta: "Smart popups",
-    subTitle: `Create customized popups and show the message at the lorem`,
+    meta: "Smart Notifications",
+    subTitle: `Automate sales messages and reach the right audience at the right time.`,
   },
   {
     icon: "61",
@@ -14,7 +14,7 @@ const FeatureContent = [
   {
     icon: "62",
     meta: "Autoresponder",
-    subTitle: `Send welcome email to your new subscribers with a code.`,
+    subTitle: `Automatically send personalized welcome emails to new leads and customers.`,
   },
 ];
 

@@ -16,7 +16,7 @@ const EventOrganizer = () => {
   return (
     <div className="main-page-wrapper p0">
       <Helmet>
-        <title>Event Organizer || Deski-Saas & Software React Template</title>
+        <title>Lead Manager || Leadhub-Saas & Software</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -166,7 +166,7 @@ const EventOrganizer = () => {
             <h6>Our Pricing</h6>
             <div className="row">
               <div className="col-lg-9 m-auto">
-                <h2>Unbeatable prices, no contracts, simple & easy</h2>
+                <h2>Unbeatable prices, simple & easy. Cancel anytime.</h2>
               </div>
             </div>
           </div>
@@ -184,62 +184,62 @@ const EventOrganizer = () => {
      =============================================
 				Client Feedback Slider
 		============================================== */}
-      <div className="client-feedback-slider-three mb-250 ">
-        <div className="container">
-          <div className="title-style-five text-center mb-80 md-mb-50">
-            <div className="row">
-              <div className="col-lg-7 col-md-9 m-auto">
-                <h2 data-aos="fade-up" data-aos-duration="1200">
-                  <span>Check what’s our client </span>say about us.
-                </h2>
-              </div>
-            </div>
-          </div>
-          {/* End title */}
-          <div className="row">
-            <div className="col-xl-7 col-lg-9 m-auto">
-              <div className="testimonial-slider-wrapper">
-                <img src="images/icon/65.svg" alt="icon" className="m-auto" />
-                <div className="clientSliderThree">
-                  <TestimonialThree />
-                </div>
-              </div>
-              {/* /.testimonial-slider-wrapper */}
-            </div>
-          </div>
-        </div>
-        {/* /.container */}
-        <img
-          src="images/media/img_59.png"
-          alt="media"
-          className="shapes shape_1"
-        />
-        <img
-          src="images/media/img_60.png"
-          alt="media"
-          className="shapes shape_2"
-        />
-        <img
-          src="images/media/img_61.png"
-          alt="media"
-          className="shapes shape_3"
-        />
-        <img
-          src="images/media/img_62.png"
-          alt="media"
-          className="shapes shape_4"
-        />
-        <img
-          src="images/media/img_63.png"
-          alt="media"
-          className="shapes shape_5"
-        />
-        <img
-          src="images/media/img_64.png"
-          alt="media"
-          className="shapes shape_6"
-        />
-      </div>
+      {/*<div className="client-feedback-slider-three mb-250 ">*/}
+      {/*  <div className="container">*/}
+      {/*    <div className="title-style-five text-center mb-80 md-mb-50">*/}
+      {/*      <div className="row">*/}
+      {/*        <div className="col-lg-7 col-md-9 m-auto">*/}
+      {/*          <h2 data-aos="fade-up" data-aos-duration="1200">*/}
+      {/*            <span>Check what’s our client </span>say about us.*/}
+      {/*          </h2>*/}
+      {/*        </div>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*    /!* End title *!/*/}
+      {/*    <div className="row">*/}
+      {/*      <div className="col-xl-7 col-lg-9 m-auto">*/}
+      {/*        <div className="testimonial-slider-wrapper">*/}
+      {/*          <img src="images/icon/65.svg" alt="icon" className="m-auto" />*/}
+      {/*          <div className="clientSliderThree">*/}
+      {/*            <TestimonialThree />*/}
+      {/*          </div>*/}
+      {/*        </div>*/}
+      {/*        /!* /.testimonial-slider-wrapper *!/*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*  /!* /.container *!/*/}
+      {/*  <img*/}
+      {/*    src="images/media/img_59.png"*/}
+      {/*    alt="media"*/}
+      {/*    className="shapes shape_1"*/}
+      {/*  />*/}
+      {/*  <img*/}
+      {/*    src="images/media/img_60.png"*/}
+      {/*    alt="media"*/}
+      {/*    className="shapes shape_2"*/}
+      {/*  />*/}
+      {/*  <img*/}
+      {/*    src="images/media/img_61.png"*/}
+      {/*    alt="media"*/}
+      {/*    className="shapes shape_3"*/}
+      {/*  />*/}
+      {/*  <img*/}
+      {/*    src="images/media/img_62.png"*/}
+      {/*    alt="media"*/}
+      {/*    className="shapes shape_4"*/}
+      {/*  />*/}
+      {/*  <img*/}
+      {/*    src="images/media/img_63.png"*/}
+      {/*    alt="media"*/}
+      {/*    className="shapes shape_5"*/}
+      {/*  />*/}
+      {/*  <img*/}
+      {/*    src="images/media/img_64.png"*/}
+      {/*    alt="media"*/}
+      {/*    className="shapes shape_6"*/}
+      {/*  />*/}
+      {/*</div>*/}
       {/* /.client-feedback-slider-three */}
 
       <div className="faq-section-four">
@@ -271,10 +271,10 @@ const EventOrganizer = () => {
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <h3 className="font-rubik pb-30">Don’t find your answer?</h3>
-            <Link className="theme-btn-five" to="/contact-eo">
-              Contact us
-            </Link>
+            {/*<h3 className="font-rubik pb-30">Don’t find your answer?</h3>*/}
+            {/*<Link className="theme-btn-five" to="/contact-eo">*/}
+            {/*  Contact us*/}
+            {/*</Link>*/}
           </div>
         </div>
         {/* /.container */}
@@ -308,14 +308,14 @@ const EventOrganizer = () => {
           <div className="bottom-footer-content">
             <p>
               Copyright @{new Date().getFullYear()}{" "}
-              <a
-                href="https://themeforest.net/user/ib-themes/portfolio"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ib-themes
-              </a>{" "}
-              inc.
+              {/*<a*/}
+              {/*  href="https://themeforest.net/user/ib-themes/portfolio"*/}
+              {/*  target="_blank"*/}
+              {/*  rel="noreferrer"*/}
+              {/*>*/}
+              {/*  ib-themes*/}
+              {/*</a>{" "}*/}
+              {/*inc.*/}
             </p>
           </div>
           {/* /.bottom-footer */}

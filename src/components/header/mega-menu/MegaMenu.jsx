@@ -340,232 +340,232 @@ const Docs = [
 const MegaMenu = () => {
   return (
     <ul className="navbar-nav">
-      <li className="nav-item dropdown position-static active">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+      {/*<li className="nav-item dropdown position-static active">*/}
+      {/*  <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">*/}
+      {/*    Home*/}
+      {/*  </a>*/}
+      {/*  <div className="dropdown-menu">*/}
+      {/*    <ul className="mega-menu d-flex ">*/}
+      {/*      {HomeDropdown.map((val, i) => (*/}
+      {/*        <li key={i}>*/}
+      {/*          <Link to={val.routerPath} className={val.clasName}>*/}
+      {/*            <img src={`images/menu/${val.img}.png`} alt="home-demo" />*/}
+      {/*            <span className="font-rubik">{val.title}</span>*/}
+      {/*            <div className={val.inenerTextWrapClass}>*/}
+      {/*              <div className="font-rubik">{val.inenerText}</div>*/}
+      {/*            </div>*/}
+      {/*          </Link>*/}
+      {/*        </li>*/}
+      {/*      ))}*/}
+      {/*    </ul>*/}
+      {/*  </div>*/}
+      {/*  /!* /.dropdown-menu *!/*/}
+      {/*</li>*/}
+      {/* End li */}
+
+      {/*<li className="nav-item dropdown">*/}
+      {/*  <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">*/}
+      {/*    Pages*/}
+      {/*  </a>*/}
+      {/*  <ul className="dropdown-menu">*/}
+      {/*    <li className="dropdown-submenu dropdown">*/}
+      {/*      <a*/}
+      {/*        href="#"*/}
+      {/*        className="dropdown-item dropdown-toggle"*/}
+      {/*        data-toggle="dropdown"*/}
+      {/*      >*/}
+      {/*        Pricing*/}
+      {/*      </a>*/}
+      {/*      <ul className="dropdown-menu">*/}
+      {/*        {Pricing.map((val, i) => (*/}
+      {/*          <li key={i}>*/}
+      {/*            <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*              {val.name}*/}
+      {/*            </Link>*/}
+      {/*          </li>*/}
+      {/*        ))}*/}
+      {/*      </ul>*/}
+      {/*    </li>*/}
+      {/*    <li className="dropdown-submenu dropdown">*/}
+      {/*      <a*/}
+      {/*        href="#"*/}
+      {/*        className="dropdown-item dropdown-toggle"*/}
+      {/*        data-toggle="dropdown"*/}
+      {/*      >*/}
+      {/*        About Us*/}
+      {/*      </a>*/}
+      {/*      <ul className="dropdown-menu">*/}
+      {/*        {AboutUs.map((val, i) => (*/}
+      {/*          <li key={i}>*/}
+      {/*            <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*              {val.name}*/}
+      {/*            </Link>*/}
+      {/*          </li>*/}
+      {/*        ))}*/}
+      {/*      </ul>*/}
+      {/*    </li>*/}
+      {/*    <li className="dropdown-submenu dropdown">*/}
+      {/*      <a*/}
+      {/*        href="#"*/}
+      {/*        className="dropdown-item dropdown-toggle"*/}
+      {/*        data-toggle="dropdown"*/}
+      {/*      >*/}
+      {/*        Contact Us*/}
+      {/*      </a>*/}
+      {/*      <ul className="dropdown-menu">*/}
+      {/*        {ContactUS.map((val, i) => (*/}
+      {/*          <li key={i}>*/}
+      {/*            <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*              {val.name}*/}
+      {/*            </Link>*/}
+      {/*          </li>*/}
+      {/*        ))}*/}
+      {/*      </ul>*/}
+      {/*    </li>*/}
+      {/*    <li className="dropdown-submenu dropdown">*/}
+      {/*      <a*/}
+      {/*        href="#"*/}
+      {/*        className="dropdown-item dropdown-toggle"*/}
+      {/*        data-toggle="dropdown"*/}
+      {/*      >*/}
+      {/*        Team*/}
+      {/*      </a>*/}
+      {/*      <ul className="dropdown-menu">*/}
+      {/*        {Team.map((val, i) => (*/}
+      {/*          <li key={i}>*/}
+      {/*            <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*              {val.name}*/}
+      {/*            </Link>*/}
+      {/*          </li>*/}
+      {/*        ))}*/}
+      {/*      </ul>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link className="dropdown-item" to="/faq">*/}
+      {/*        {" "}*/}
+      {/*        FAQ*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link className="dropdown-item" to="/faq-details">*/}
+      {/*        {" "}*/}
+      {/*        Faq Details*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*  </ul>*/}
+      {/*  /!* /.dropdown-menu *!/*/}
+      {/*</li>*/}
+      {/* End li */}
+
+      {/*<li className="nav-item dropdown">*/}
+      {/*  <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">*/}
+      {/*    Feature*/}
+      {/*  </a>*/}
+
+      {/*  <ul className="dropdown-menu">*/}
+      {/*    <li className="dropdown-submenu dropdown">*/}
+      {/*      <a*/}
+      {/*        href="#"*/}
+      {/*        className="dropdown-item dropdown-toggle"*/}
+      {/*        data-toggle="dropdown"*/}
+      {/*      >*/}
+      {/*        Services*/}
+      {/*      </a>*/}
+      {/*      <ul className="dropdown-menu">*/}
+      {/*        {Services.map((val, i) => (*/}
+      {/*          <li key={i}>*/}
+      {/*            <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*              {val.name}*/}
+      {/*            </Link>*/}
+      {/*          </li>*/}
+      {/*        ))}*/}
+      {/*      </ul>*/}
+      {/*    </li>*/}
+      {/*    <li className="dropdown-submenu dropdown">*/}
+      {/*      <a*/}
+      {/*        href="#"*/}
+      {/*        className="dropdown-item dropdown-toggle"*/}
+      {/*        data-toggle="dropdown"*/}
+      {/*      >*/}
+      {/*        Miscellaneous*/}
+      {/*      </a>*/}
+      {/*      <ul className="dropdown-menu">*/}
+      {/*        {Miscellaneous.map((val, i) => (*/}
+      {/*          <li key={i}>*/}
+      {/*            <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*              {val.name}*/}
+      {/*            </Link>*/}
+      {/*          </li>*/}
+      {/*        ))}*/}
+      {/*      </ul>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link to="/solution-management" className="dropdown-item">*/}
+      {/*        Our Solution*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link to="/product-customer-support" className="dropdown-item">*/}
+      {/*        Product Feature*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link to="/features-customer-support" className="dropdown-item">*/}
+      {/*        Our Features*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*  </ul>*/}
+      {/*  /!* /.dropdown-menu *!/*/}
+      {/*</li>*/}
+      {/* End li */}
+
+      {/*<li className="nav-item dropdown">*/}
+      {/*  <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">*/}
+      {/*    Portfolio*/}
+      {/*  </a>*/}
+      {/*  <ul className="dropdown-menu">*/}
+      {/*    {Portfolio.map((val, i) => (*/}
+      {/*      <li key={i}>*/}
+      {/*        <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*          {val.name}*/}
+      {/*        </Link>*/}
+      {/*      </li>*/}
+      {/*    ))}*/}
+      {/*  </ul>*/}
+      {/*  /!* /.dropdown-menu *!/*/}
+      {/*</li>*/}
+      {/* End li */}
+
+      {/*<li className="nav-item dropdown">*/}
+      {/*  <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">*/}
+      {/*    Blogs*/}
+      {/*  </a>*/}
+      {/*  <ul className="dropdown-menu">*/}
+      {/*    {Blogs.map((val, i) => (*/}
+      {/*      <li key={i}>*/}
+      {/*        <Link to={val.routerPath} className="dropdown-item">*/}
+      {/*          {val.name}*/}
+      {/*        </Link>*/}
+      {/*      </li>*/}
+      {/*    ))}*/}
+      {/*  </ul>*/}
+      {/*  /!* /.dropdown-menu *!/*/}
+      {/*</li>*/}
+      {/* End li */}
+
+      <li className="nav-item dropdown">
+        <a className="nav-link" href="#">
           Home
         </a>
-        <div className="dropdown-menu">
-          <ul className="mega-menu d-flex ">
-            {HomeDropdown.map((val, i) => (
-              <li key={i}>
-                <Link to={val.routerPath} className={val.clasName}>
-                  <img src={`images/menu/${val.img}.png`} alt="home-demo" />
-                  <span className="font-rubik">{val.title}</span>
-                  <div className={val.inenerTextWrapClass}>
-                    <div className="font-rubik">{val.inenerText}</div>
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        {/* /.dropdown-menu */}
-      </li>
-      {/* End li */}
-
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Pages
-        </a>
-        <ul className="dropdown-menu">
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Pricing
-            </a>
-            <ul className="dropdown-menu">
-              {Pricing.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              About Us
-            </a>
-            <ul className="dropdown-menu">
-              {AboutUs.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Contact Us
-            </a>
-            <ul className="dropdown-menu">
-              {ContactUS.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Team
-            </a>
-            <ul className="dropdown-menu">
-              {Team.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li>
-            <Link className="dropdown-item" to="/faq">
-              {" "}
-              FAQ
-            </Link>
-          </li>
-          <li>
-            <Link className="dropdown-item" to="/faq-details">
-              {" "}
-              Faq Details
-            </Link>
-          </li>
-        </ul>
-        {/* /.dropdown-menu */}
-      </li>
-      {/* End li */}
-
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Feature
-        </a>
-
-        <ul className="dropdown-menu">
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Services
-            </a>
-            <ul className="dropdown-menu">
-              {Services.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Miscellaneous
-            </a>
-            <ul className="dropdown-menu">
-              {Miscellaneous.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li>
-            <Link to="/solution-management" className="dropdown-item">
-              Our Solution
-            </Link>
-          </li>
-          <li>
-            <Link to="/product-customer-support" className="dropdown-item">
-              Product Feature
-            </Link>
-          </li>
-          <li>
-            <Link to="/features-customer-support" className="dropdown-item">
-              Our Features
-            </Link>
-          </li>
-        </ul>
-        {/* /.dropdown-menu */}
-      </li>
-      {/* End li */}
-
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Portfolio
-        </a>
-        <ul className="dropdown-menu">
-          {Portfolio.map((val, i) => (
-            <li key={i}>
-              <Link to={val.routerPath} className="dropdown-item">
-                {val.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        {/* /.dropdown-menu */}
-      </li>
-      {/* End li */}
-
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Blogs
-        </a>
-        <ul className="dropdown-menu">
-          {Blogs.map((val, i) => (
-            <li key={i}>
-              <Link to={val.routerPath} className="dropdown-item">
-                {val.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        {/* /.dropdown-menu */}
-      </li>
-      {/* End li */}
-
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Docs
-        </a>
-        <ul className="dropdown-menu">
-          {Docs.map((val, i) => (
-            <li key={i}>
-              <Link to={val.routerPath} className="dropdown-item">
-                {val.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {/*<ul className="dropdown-menu">*/}
+          {/*{Docs.map((val, i) => (*/}
+          {/*  <li key={i}>*/}
+          {/*    <Link to={val.routerPath} className="dropdown-item">*/}
+          {/*      {val.name}*/}
+          {/*    </Link>*/}
+          {/*  </li>*/}
+          {/*))}*/}
+        {/*</ul>*/}
         {/* /.dropdown-menu */}
       </li>
       {/* End li */}

@@ -51,16 +51,16 @@ const HeroBannerFour = () => {
                 className="shapes shape-three"
               />
             </div>
-            <p className="review-text">
-              Over <span>150,000+ client</span> all over the world.
-            </p>
+            {/*<p className="review-text">*/}
+            {/*  Over <span>150,000+ client</span> all over the world.*/}
+            {/*</p>*/}
           </div>
           {/* End .col */}
 
           <div className="col-lg-6 order-lg-first">
             <div className="text-wrapper">
               <h1 data-aos="fade-up" data-aos-duration="1200">
-                <span>Event ticket</span> organiser & seller.
+                <span>Lead</span> Management & Sales Automation.
               </h1>
               <p
                 className="sub-text"
@@ -68,11 +68,10 @@ const HeroBannerFour = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                For hassale free event, we are here to help you by creating
-                online ticket.
+                  Simplify your sales process and convert leads into customers with ease.
               </p>
               <Link
-                to="/login"
+                to="/coming-soon"
                 className="theme-btn-five"
                 data-aos="fade-up"
                 data-aos-duration="1200"

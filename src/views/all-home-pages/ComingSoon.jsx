@@ -37,8 +37,8 @@ const ComingSoon = () => {
       <div className="full-height-layout d-flex align-items-center">
         <div className="coming-soon-content font-gordita">
           <div className="logo coming-soon-brand">
-            <Link to="/">
-              <img src="images/logo/deski_06.svg" alt="brand logo" />
+            <Link style={{color: "purple", fontSize: "40px"}} to="/">
+              Leadhub
             </Link>
           </div>
           <h6>COMING SOON</h6>
@@ -52,19 +52,19 @@ const ComingSoon = () => {
             </div>
           </div>
           <form onClick={handleSubmit}>
-            <input type="email" placeholder="ihidago@ujufidnan.gov" />
+            <input type="email" placeholder="staywithus@gmail.com" />
             <button>Notify Me</button>
           </form>
 
-          <ul className="social-icon d-flex justify-content-center">
-            {socialContent.map((val, i) => (
-              <li key={i}>
-                <a href={val.link} target="_blank" rel="noreferrer">
-                  <i className={`fa ${val.icon}`}></i>
-                </a>
-              </li>
-            ))}
-          </ul>
+          {/*<ul className="social-icon d-flex justify-content-center">*/}
+          {/*  {socialContent.map((val, i) => (*/}
+          {/*    <li key={i}>*/}
+          {/*      <a href={val.link} target="_blank" rel="noreferrer">*/}
+          {/*        <i className={`fa ${val.icon}`}></i>*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*  ))}*/}
+          {/*</ul>*/}
 
           <img
             src="images/shape/179.svg"

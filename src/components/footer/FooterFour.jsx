@@ -47,7 +47,11 @@ const legalFooterContent = [
   },
   {
     itemName: "Refund policy",
-    routePath: "/terms-conditions",
+    routePath: "/refund-policy",
+  },
+  {
+    itemName: "",
+    routePath: "/refund-policy",
   },
 ];
 

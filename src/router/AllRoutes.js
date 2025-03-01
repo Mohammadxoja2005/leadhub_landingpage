@@ -99,6 +99,7 @@ import Cart from "../views/inner-pages/e-commerce/Cart";
 import Checkout from "../views/inner-pages/e-commerce/Checkout";
 import ProductDetails from "../views/inner-pages/e-commerce/ProductDetails";
 import PrivacyPolicy from "../views/inner-pages/features/miscellaneous/PrivacyPolicy";
+import RefundPolicy from "../views/inner-pages/features/miscellaneous/RefundPolicy";
 
 const AllRoutes = () => {
   return (
@@ -160,7 +161,9 @@ const AllRoutes = () => {
         {/*<Route path="/SignUp" element={<SignUp />} />*/}
         <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        {/*<Route path="/solution-management" element={<SolutionMangement />} />*/}
+          <Route path="/refund-policy" element={<RefundPolicy />} />
+
+          {/*<Route path="/solution-management" element={<SolutionMangement />} />*/}
         {/*<Route*/}
         {/*  path="/product-customer-support"*/}
         {/*  element={<ProductCustomerSupport />}*/}

@@ -93,11 +93,11 @@ const FooterFour = () => {
         </div>
         <ul className="font-rubik mt-10">
           <li>
-            <a href="mailto:leadhubapp@gmail.com">leadhubapp@gmail.com</a>
+            {/*<a href="mailto:leadhubapp@gmail.com">leadhubapp@gmail.com</a>*/}
           </li>
-          {/*<li>*/}
-          {/*  <a href="tel:+761 412 3224">+761 412 3224</a>*/}
-          {/*</li>*/}
+          <li>
+            <a href="tel:+761 412 3224">+1 (205) 341-7523</a>
+          </li>
         </ul>
       </div>
       {/* /.footer-list */}

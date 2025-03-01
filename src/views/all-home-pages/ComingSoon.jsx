@@ -28,11 +28,11 @@ const ComingSoon = () => {
   };
   return (
     <>
-      <Helmet>
-        <title>
-          Appointment Scheduling || Deski-Saas & Software React Template
-        </title>
-      </Helmet>
+      {/*<Helmet>*/}
+      {/*  <title>*/}
+      {/*    Appointment Scheduling || Deski-Saas & Software React Template*/}
+      {/*  </title>*/}
+      {/*</Helmet>*/}
       {/* End Page SEO Content */}
       <div className="full-height-layout d-flex align-items-center">
         <div className="coming-soon-content font-gordita">

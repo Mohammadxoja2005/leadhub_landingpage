@@ -46,7 +46,7 @@ const TermsConditions = () => {
                 name="termly-embed"
                 data-id="62875174-cc01-4b76-87b9-c1012f4800b5"
             >
-                <p style={{display: scriptLoaded ? 'none' : 'block'}}>Loading Terms and Conditions...</p>
+                <p style={{display: scriptLoaded ? 'block' : 'none'}}>Loading Terms and Conditions...</p>
             </div>
 
             {/* Fallback message if script fails to load */}

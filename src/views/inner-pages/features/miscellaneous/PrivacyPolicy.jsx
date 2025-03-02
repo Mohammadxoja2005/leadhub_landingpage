@@ -65,9 +65,8 @@ const PrivacyPolicy = () => {
                 <div
                     name="termly-embed"
                     data-id="338264cd-2266-4884-a18c-45f1ec36642d" // Replace with your Privacy Policy data-id
-                    style={{display: scriptLoaded ? 'block' : 'none'}} // Hide if script didn't load
                 >
-                    Loading Privacy Policy...
+                    <p style={{display: scriptLoaded ? 'none' : 'block'}}> Loading Privacy Policy...</p>
                 </div>
 
                 {/* Fallback message if script fails to load */}

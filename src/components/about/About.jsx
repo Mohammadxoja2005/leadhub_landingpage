@@ -19,8 +19,7 @@ const About = () => {
             </h2>
           </div>
           <p className="font-rubik">
-            We understand that things don’t always go as planned. Whether you have questions or need help, We're here to personally assist you—no bots, no automated replies, just real, human support.
-          </p>
+              We provide dedicated support to ensure you get the most out of our platform. Our team is available to assist with technical questions, onboarding guidance, and troubleshooting—no bots, just expert assistance for our software</p>
           {/*<p className="font-rubik">*/}
           {/*  We aim to answer any query in less than 10 minutes.*/}
           {/*</p>*/}

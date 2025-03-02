@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="row align-items-center">
       <div className="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
-        <img src="images/media/img_57.png" alt="about" className="m-auto" />
+        <img src="images/media/Success.jpg" alt="about" className="m-auto" />
       </div>
       {/* End .col */}
 

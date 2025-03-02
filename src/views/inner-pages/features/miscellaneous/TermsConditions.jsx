@@ -9,11 +9,11 @@ const TermsConditions = () => {
       const scriptId = 'termly-jssdk';
 
       // Check if the script is already loaded
-      if (document.getElementById(scriptId)) {
-        console.log('Termly script already loaded.');
-        setScriptLoaded(true);
-        return;
-      }
+      // if (document.getElementById(scriptId)) {
+      //   console.log('Termly script already loaded.');
+      //   setScriptLoaded(true);
+      //   return;
+      // }
 
       // Create the script element
       const script = document.createElement('script');

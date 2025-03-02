@@ -111,12 +111,12 @@ const EventOrganizer = () => {
               data-aos-duration="1200"
             >
               <div className="illustration-holder d-flex justify-content-end md-mt-50">
-                <img src="images/media/img_58.png" alt="media" />
-                <img
-                  src="images/shape/113.svg"
-                  alt="media"
-                  className="shapes shape-one"
-                />
+                <img src="images/media/10905532.jpg" alt="media" />
+                {/*<img*/}
+                {/*  src="images/shape/113.svg"*/}
+                {/*  alt="media"*/}
+                {/*  className="shapes shape-one"*/}
+                {/*/>*/}
               </div>
               {/* /.illustration-holder */}
             </div>
